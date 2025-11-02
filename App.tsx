@@ -91,11 +91,16 @@ const Hero: React.FC = () => (
       </div>
       <div className="mt-16 max-w-4xl mx-auto">
         <div className="relative rounded-xl shadow-2xl shadow-teal-900/20 bg-[#1e293b] p-2 ring-1 ring-white/10">
-          <img
-            src="https://imgur.com/a/cEwyKlH"
-            alt="P-Q user flow animation"
-            className="w-full rounded-lg aspect-video object-cover"
-          />
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src="https://www.youtube.com/embed/oBADVudHFs0?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=oBADVudHFs0&playsinline=1"
+                    title="P-Q App Walkthrough"
+                    frameBorder="0"
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                />
+            </div>
         </div>
       </div>
     </div>
