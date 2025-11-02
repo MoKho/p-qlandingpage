@@ -63,7 +63,7 @@ const Header: React.FC = () => (
     <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="/" className="flex items-center gap-3">
                 <img
-                    src="/static/P-Q Logo.png"
+                    src="https://mokho.github.io/p-qlandingpage/static/P-Q%20Logo.png"
                     alt="P-Q Logo"
                     className="h-20 w-auto"
                     onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/static/P-Q Logo.svg'; }}
@@ -265,7 +265,7 @@ const Footer: React.FC = () => (
                 <div>
                                         <a href="/" className="flex items-center gap-3">
                                                 <img
-                                                    src="/static/P-Q Logo.png"
+                                                    src="https://mokho.github.io/p-qlandingpage/static/P-Q%20Logo.png"
                                                     alt="P-Q Logo"
                                                     className="h-20 w-auto"
                                                     onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/static/P-Q Logo.svg'; }}
