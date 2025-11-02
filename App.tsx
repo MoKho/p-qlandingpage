@@ -61,7 +61,14 @@ const MessageCircleIcon: React.FC<{ className?: string }> = ({ className }) => (
 const Header: React.FC = () => (
   <header className="bg-[#0d1a2e]/80 backdrop-blur-sm sticky top-0 z-50">
     <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="/" className="text-2xl font-bold text-white">P-Q<span className="text-teal-500">.</span></a>
+            <a href="/" className="flex items-center gap-3">
+                <img
+                    src="/static/P-Q Logo.png"
+                    alt="P-Q Logo"
+                    className="h-20 w-auto"
+                    onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/static/P-Q Logo.svg'; }}
+                />
+            </a>
       <nav className="space-x-8 hidden md:flex items-center">
         <a href="/#how-it-works" className="text-slate-300 hover:text-teal-400 transition-colors">How It Works</a>
         <a href="/#why-use-us" className="text-slate-300 hover:text-teal-400 transition-colors">Why P-Q?</a>
@@ -256,7 +263,15 @@ const Footer: React.FC = () => (
         <div className="container mx-auto px-6 py-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
                 <div>
-                    <a href="/" className="text-xl font-bold text-white">P-Q<span className="text-teal-500">.</span>app</a>
+                                        <a href="/" className="flex items-center gap-3">
+                                                <img
+                                                    src="/static/P-Q Logo.png"
+                                                    alt="P-Q Logo"
+                                                    className="h-20 w-auto"
+                                                    onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/static/P-Q Logo.svg'; }}
+                                                />
+                                                <span className="text-xl font-bold text-white">.app</span>
+                                        </a>
                     <p className="text-slate-500 mt-2">© {new Date().getFullYear()} P-Q. All rights reserved.</p>
                 </div>
                 <div className="mt-6 md:mt-0 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">

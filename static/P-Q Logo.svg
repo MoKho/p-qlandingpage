@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32" role="img" aria-label="P-Q logo">
+  <rect width="120" height="32" rx="4" fill="#0d1a2e" />
+  <text x="12" y="22" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#ffffff">P-Q</text>
+  <circle cx="62" cy="18" r="4" fill="#14b8a6" />
+</svg>
