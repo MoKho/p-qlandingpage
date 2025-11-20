@@ -33,8 +33,33 @@ const PrivacyPolicy: React.FC = () => (
                 <h2>Data Security</h2>
                 <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.</p>
 
+                <h2>Sharing & Disclosure</h2>
+                <p>We do <strong>not sell</strong> user data, your profile or your resume content to third parties. We do not share, transfer, or disclose user data except: (a) as necessary to provide and improve the core functionality of our application; (b) to trusted service providers that support our operations (such as hosting or logging) under written confidentiality and data protection obligations; or (c) when required by law, regulation, or valid legal process. We do not use Google user data for advertising, profiling, or marketing unrelated to providing or improving the service.</p>
+                <p><strong>Google user data (your basic profile information and the specific resume file you select) is shared only with service providers acting strictly as processors on our behalf</strong> (e.g., cloud infrastructure, error monitoring) and <strong>is never provided to advertising networks or data brokers</strong>. These processors are contractually prohibited from using the data for any purpose other than delivering the services we have engaged them for.</p>
+
+                <h2>Data Location & Transfers</h2>
+                <p>Data we process (including Google user data and transient resume content) may be processed in the United States or Canada. We employ safeguards and access controls appropriate to each location. If we later add processing locations in additional jurisdictions, we will update this section and provide a prominent notice for any material change.</p>
+
+                <h2>Limited Use of Google User Data</h2>
+                <p>Our access, use, transfer, and storage of Google user data obtained via Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements. We only request the minimum scopes needed for functionality, and we restrict use of data strictly to generating, analyzing, and tailoring your resume content as requested by you.</p>
+
+                <h2>Data Retention & Deletion</h2>
+                <p>We retain Google user data and resume content only for as long as needed to provide the requested functionality. Unless you explicitly opt in to persistent storage features (if/when offered), processed resume content is stored only transiently (in memory or short-lived secure cache) and is discarded after your session ends. If we introduce persistent storage, we will update this policy and clearly present an in-product notice.</p>
+                <p>You may request deletion of any stored data (if applicable) by contacting us at <a href="mailto:hi@p-q.app">hi@p-q.app</a>. Upon a verified deletion request, we will remove the associated data from active systems within 30 days and from backups within 90 days (or the shortest feasible cycle). We do not retain derived data after deletion other than aggregated, non-identifiable metrics used to maintain and improve service reliability.</p>
+
+                <h2>Your Choices & Controls</h2>
+                <ul>
+                    <li><strong>Data Access:</strong> You control which resume file is shared with us via the Google Drive picker and OAuth consent screen.</li>
+                    <li><strong>Scope Minimization:</strong> You may decline any optional scopes; core functionality will indicate required scopes clearly.</li>
+                    <li><strong>Correction:</strong> You can update your resume by re-uploading or re-selecting a file, replacing transient processed content.</li>
+                    <li><strong>Deletion:</strong> Request deletion via email as described above.</li>
+                </ul>
+
+                <h2>Revoking Access</h2>
+                <p>You may revoke our access to your Google account at any time by visiting your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">Google Account Permissions</a> page and removing the P-Q application. Revoking access stops further data retrieval immediately; any previously stored transient data is purged according to the retention and deletion practices above.</p>
+
                 <h2>Changes to This Privacy Policy</h2>
-                <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+                <p>We may update this Privacy Policy from time to time. If we make material changes to how we access, use, store, or share Google user data, we will provide a prominent in-product notice or email (if contact details are available) in addition to updating the “Last updated” date at the top of this page. Continued use after an update constitutes acknowledgment of the revised terms. We encourage you to review this page periodically.</p>
 
                 <h2>Contact Us</h2>
                 <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:mo@p-q.app">mo@p-q.app</a>.</p>
