@@ -101,7 +101,7 @@ const Hero: React.FC = () => (
             <div className="relative w-full aspect-video rounded-lg overflow-hidden">
                 <iframe
                     className="absolute inset-0 w-full h-full"
-                    src="https://www.youtube.com/embed/oBADVudHFs0?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&loop=1&playlist=oBADVudHFs0&playsinline=1"
+                    src="https://www.youtube.com/embed/NLzqnRK-t4k?autoplay=1&mute=1&controls=1&rel=0&modestbranding=1&loop=1&playsinline=1"
                     title="P-Q App Walkthrough"
                     frameBorder="0"
                     allow="autoplay; encrypted-media; picture-in-picture"
